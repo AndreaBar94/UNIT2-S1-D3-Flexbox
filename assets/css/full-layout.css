@@ -224,6 +224,8 @@ section{
     display: flex;
     flex-direction: row;
     margin-left: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .textBox{
     color:rgb(105, 56, 13);
