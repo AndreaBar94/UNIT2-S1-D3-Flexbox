@@ -122,7 +122,16 @@ section{
 
 
 @media screen and (min-width: 1200px){
-    section{
+.title{
+    text-align: left;
+    font-weight: bold;
+    color: rgb(105, 56, 13);
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 12rem;
+}
+
+section{
     background-color: rgb(251, 243, 181);
     width: 80%;
     height: fit-content;
@@ -140,10 +149,8 @@ section{
 }
 
 img{
-    height: 100%;
-    width: 100%;
     align-self: center;
-    margin-left: 2rem;
+    padding: 2rem;
 }
 
 .navBar{
@@ -152,7 +159,7 @@ img{
     background-color: rgb(248, 240, 205);
     position: fixed;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
@@ -171,7 +178,7 @@ img{
 #iconBtn{
     display:flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     
 }
 .iconImg{
