@@ -1,0 +1,181 @@
+.title{
+    text-align: left;
+    font-weight: bold;
+    color: rgb(105, 56, 13);
+    font-size: 3rem;
+    margin-left: 15rem;
+}
+main{
+    width: 10rem;
+    height: 10rem;
+    margin: 0;
+}
+.cardContainer{
+    width: 50%;
+    height: 30%;
+    display:flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 699px){
+    section{
+        background-color: rgb(251, 243, 181);
+        border-radius: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .textBox{
+        color:rgb(105, 56, 13);
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+    }
+    img{
+        height: 90%;
+        max-width: 90%;
+        align-self: center;
+        padding: 2rem;
+        
+    }
+}
+@media screen and (min-width: 700px){
+    section{
+        background-color: rgb(251, 243, 181);
+        border-radius: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .textBox{
+        color:rgb(105, 56, 13);
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+    }
+    img{
+        height: 90%;
+        max-width: 100%;
+        align-self: center;
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    section{
+    background-color: rgb(251, 243, 181);
+    width: 100%;
+    height: fit-content;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 12rem;
+}
+.textBox{
+    color:rgb(105, 56, 13);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    margin-left: 2rem;
+}
+}
+
+@media screen and (min-width: 1200px){
+.navBar{
+    width: 10rem;
+    height: 100%;
+    background-color: rgb(248, 240, 205);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.navBtn{
+    color: rgb(83, 41, 7);
+    font-size: 1rem;
+    background-color: rgb(247, 232, 119);
+    border-radius: 50px;
+    border:unset;
+    height: 80px;
+    width: 140px;
+    margin-block: 2rem;
+}
+
+#iconBtn{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.navBtn:hover{
+    height: 80px;
+    width: 170px;
+}
+}
+/* PRODUCT CARD */
+
+@media screen and (min-width:1200px){
+    .cardContainer{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 12rem;
+    }
+
+        .card{
+    border-radius: 140px;
+    background-image: url(../imgs/honey.jpg);
+    background-color: rgb(245, 235, 187);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.text{
+    color: rgb(69, 37, 10);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.btn{
+    align-self: center;
+    padding: 1.5rem;
+}
+
+.addToCart{
+    color: rgb(83, 41, 7);
+    font-size: 1rem;
+    background-color: rgb(241, 217, 95);
+    border-radius: 30px;
+    border:unset;
+    width: 170px;
+    height: 40px;
+}
+
+}
+

@@ -1,4 +1,51 @@
-section{
+@media screen and (max-width: 699px){
+    section{
+        background-color: rgb(251, 243, 181);
+        border-radius: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .textBox{
+        color:rgb(105, 56, 13);
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+    }
+    img{
+        height: 90%;
+        max-width: 90%;
+        align-self: center;
+        padding: 2rem;
+        
+    }
+}
+@media screen and (min-width: 700px){
+    section{
+        background-color: rgb(251, 243, 181);
+        border-radius: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .textBox{
+        color:rgb(105, 56, 13);
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+    }
+    img{
+        height: 90%;
+        max-width: 100%;
+        align-self: center;
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    section{
     background-color: rgb(251, 243, 181);
     width: 1250px;
     height: 500px;
@@ -6,7 +53,6 @@ section{
     display: flex;
     flex-direction: row;
 }
-
 .textBox{
     color:rgb(105, 56, 13);
     padding: 1rem;
@@ -20,4 +66,5 @@ img{
     width: 100%;
     align-self: center;
     margin-left: 2rem;
+}
 }
