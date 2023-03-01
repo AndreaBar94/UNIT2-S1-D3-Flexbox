@@ -181,39 +181,44 @@ img{
     justify-content: flex-start;
     
 }
+
 .iconImg{
     width: 40px;
     height: 40px;
 }
+
 .navBtn:hover{
     height: 80px;
     width: 170px;
 }
+
 .cardContainer{
         width: 80%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
         margin-left: 12rem;
-    }
+}
 
-        .card{
-    border-radius: 100px;
+.card{
+    border-radius: 50px;
     background-image: url(../imgs/honey.jpg);
     background-color: rgb(245, 235, 187);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center top;
-    width: 20rem;
-    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: end;
     margin: 1rem;
+    height: 23rem;
 }
 
 .text{
     color: rgb(69, 37, 10);
-    font-size: 1.5em;
+    font-size: 1.2em;
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
